@@ -13,12 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from typing import Tuple
 import io
-from pydub import AudioSegment
+from typing import Tuple
+
 import librosa
 import torch
 import torchaudio
+from pydub import AudioSegment
 
 # https://gist.github.com/hollance/42e32852f24243b748ae6bc1f985b13a
 # fmt: off

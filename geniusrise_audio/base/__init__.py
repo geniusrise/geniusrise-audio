@@ -16,3 +16,4 @@
 from .api import AudioAPI
 from .bulk import AudioBulk
 from .communication import send_email, send_fine_tuning_email
+from .stream import AudioStream
